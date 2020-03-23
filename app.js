@@ -271,7 +271,6 @@ var appController = (function(uiController, financeController) {
     financeController.tusviigTootsooloh();
     // 2. Эцсийн үлдэгдэл
     var tusuv = financeController.tusviigAvah();
-    console.log(tusuv);
     // 3. Төсвийн тооцоог дэлгэцэнд гаргана
     uiController.tusviigUzuuleh(tusuv);
     // 4. Элементүүдийн хувийг тооцоолно
